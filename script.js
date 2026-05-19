@@ -15,6 +15,7 @@ const tools = [
     { name: "MarketMuse", link: "https://www.marketmuse.com", category: "seo", type: "Paid", description: "AI-powered content research for SEO." },
     { name: "DALL·E", link: "https://openai.com/dall-e", category: "image", type: "Free & Paid", description: "AI-generated images by OpenAI." },
     { name: "MidJourney", link: "https://www.midjourney.com", category: "image", type: "Paid", description: "AI-powered image generation tool." },
+    { name: "Aurcue", link: "https://www.aurcue.com", category: "image", type: "Free & Paid", description: "AI personal style assistant for color analysis, outfits, hairstyles, and glasses." },
     { name: "Deep Dream Generator", link: "https://deepdreamgenerator.com", category: "image", type: "Free & Paid", description: "AI-based deep learning image creation." },
     { name: "Artbreeder", link: "https://www.artbreeder.com", category: "image", type: "Free", description: "AI-generated artwork blending tool." },
     { name: "DeepAI Image Generator", link: "https://deepai.org/machine-learning-model/text2img", category: "image", type: "Free & Paid", description: "AI-powered text-to-image generation." }
