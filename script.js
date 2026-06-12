@@ -6,6 +6,7 @@ const tools = [
     { name: "DeepL Translator", link: "https://www.deepl.com", category: "research", type: "Free & Paid", description: "AI-powered translation tool." },
     { name: "Synthesia", link: "https://www.synthesia.io", category: "video", type: "Paid", description: "AI-powered video creation with avatars." },
     { name: "Runway ML", link: "https://runwayml.com", category: "video", type: "Free & Paid", description: "AI-powered video editing & effects." },
+    { name: "ImagineClip", link: "https://imagineclip.com", category: "video", type: "Free & Paid", description: "AI video generator for social clips, avatar videos, and stylized visual effects." },
     { name: "GitHub Copilot", link: "https://github.com/features/copilot", category: "coding", type: "Paid", description: "AI-powered code auto-completion." },
     { name: "Deepsick AI", link: "https://deepsick.ai", category: "coding", type: "Free & Paid", description: "AI-driven deep learning automation." },
     { name: "Tabnine", link: "https://www.tabnine.com", category: "coding", type: "Free & Paid", description: "AI-based coding assistant." },
