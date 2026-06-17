@@ -4,6 +4,7 @@ const tools = [
     { name: "Claude AI", link: "https://www.anthropic.com", category: "text", type: "Free & Paid", description: "Anthropic’s AI-powered chatbot." },
     { name: "Jasper AI", link: "https://www.jasper.ai", category: "text", type: "Paid", description: "AI-powered copywriting assistant." },
     { name: "DeepL Translator", link: "https://www.deepl.com", category: "research", type: "Free & Paid", description: "AI-powered translation tool." },
+    { name: "Remio", link: "https://remio.ai/", category: "productivity", type: "Free & Paid", description: "Local-first AI memory and knowledge base for fast personal and agent context retrieval." },
     { name: "Synthesia", link: "https://www.synthesia.io", category: "video", type: "Paid", description: "AI-powered video creation with avatars." },
     { name: "Runway ML", link: "https://runwayml.com", category: "video", type: "Free & Paid", description: "AI-powered video editing & effects." },
     { name: "GitHub Copilot", link: "https://github.com/features/copilot", category: "coding", type: "Paid", description: "AI-powered code auto-completion." },
