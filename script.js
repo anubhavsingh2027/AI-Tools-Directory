@@ -17,7 +17,8 @@ const tools = [
     { name: "MidJourney", link: "https://www.midjourney.com", category: "image", type: "Paid", description: "AI-powered image generation tool." },
     { name: "Deep Dream Generator", link: "https://deepdreamgenerator.com", category: "image", type: "Free & Paid", description: "AI-based deep learning image creation." },
     { name: "Artbreeder", link: "https://www.artbreeder.com", category: "image", type: "Free", description: "AI-generated artwork blending tool." },
-    { name: "DeepAI Image Generator", link: "https://deepai.org/machine-learning-model/text2img", category: "image", type: "Free & Paid", description: "AI-powered text-to-image generation." }
+    { name: "DeepAI Image Generator", link: "https://deepai.org/machine-learning-model/text2img", category: "image", type: "Free & Paid", description: "AI-powered text-to-image generation." },
+    { name: "Roblox GUI Maker", link: "https://robloxguimaker.dev/", category: "coding", type: "Free", description: "Free AI-assisted Roblox Studio GUI planner for ScreenGui layouts, HUDs, menus, and Lua UI starter-code ideas." }
 ];
 
 // Function to generate 500+ AI tools dynamically
