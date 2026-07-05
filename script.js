@@ -17,14 +17,17 @@ const tools = [
     { name: "MidJourney", link: "https://www.midjourney.com", category: "image", type: "Paid", description: "AI-powered image generation tool." },
     { name: "Deep Dream Generator", link: "https://deepdreamgenerator.com", category: "image", type: "Free & Paid", description: "AI-based deep learning image creation." },
     { name: "Artbreeder", link: "https://www.artbreeder.com", category: "image", type: "Free", description: "AI-generated artwork blending tool." },
-    { name: "DeepAI Image Generator", link: "https://deepai.org/machine-learning-model/text2img", category: "image", type: "Free & Paid", description: "AI-powered text-to-image generation." }
+    { name: "DeepAI Image Generator", link: "https://deepai.org/machine-learning-model/text2img", category: "image", type: "Free & Paid", description: "AI-powered text-to-image generation." },
+    { name: "Tudo", link: "https://blynkai.app/tudo/", category: "productivity", type: "Free & Paid", description: "AI task capture and personal planning for voice notes, screenshots, and organized to-dos." }
 ];
+
 
 // Function to generate 500+ AI tools dynamically
 function generateMoreTools() {
     const categories = ["text", "image", "video", "research", "productivity", "coding", "music", "seo"];
     const types = ["Free", "Paid", "Free & Paid"];
     const sampleTools = ["AI Helper", "SmartAI", "AI Writer", "DeepVision", "AutoCode", "MusicGen", "SEO Boost", "VisionAI", "DataMind", "NeuroNet", "PromptCraft", "SynthX", "CodePro"];
+
 
     for (let i = 1; i <= 480; i++) {
         const randomCategory = categories[Math.floor(Math.random() * categories.length)];
@@ -40,9 +43,11 @@ function generateMoreTools() {
     }
 }
 
+
 // Function to display tools by category
 function displayTools(filter = "") {
     document.querySelectorAll(".tools").forEach(section => section.innerHTML = "");
+
 
     tools
         .filter(tool => tool.name.toLowerCase().includes(filter.toLowerCase()))
@@ -59,9 +64,12 @@ function displayTools(filter = "") {
 }
 
 
+
+
 // Generate tools and display
 generateMoreTools();
 displayTools();
+
 
 // Search functionality
 document.getElementById("search").addEventListener("input", () => displayTools(event.target.value));
