@@ -13,6 +13,7 @@ const tools = [
     { name: "Boomy", link: "https://boomy.com", category: "music", type: "Free & Paid", description: "AI for generating music automatically." },
     { name: "Surfer SEO", link: "https://surferseo.com", category: "seo", type: "Paid", description: "AI-driven SEO content optimization." },
     { name: "MarketMuse", link: "https://www.marketmuse.com", category: "seo", type: "Paid", description: "AI-powered content research for SEO." },
+    { name: "Reverse Image Location", link: "https://reverseimagelocation.com/", category: "research", type: "Free & Paid", description: "AI photo geolocation tool that explains visual scene clues for OSINT and GeoGuessr-style practice." },
     { name: "DALL·E", link: "https://openai.com/dall-e", category: "image", type: "Free & Paid", description: "AI-generated images by OpenAI." },
     { name: "MidJourney", link: "https://www.midjourney.com", category: "image", type: "Paid", description: "AI-powered image generation tool." },
     { name: "Deep Dream Generator", link: "https://deepdreamgenerator.com", category: "image", type: "Free & Paid", description: "AI-based deep learning image creation." },
