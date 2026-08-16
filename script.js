@@ -7,6 +7,7 @@ const tools = [
     { name: "Synthesia", link: "https://www.synthesia.io", category: "video", type: "Paid", description: "AI-powered video creation with avatars." },
     { name: "Runway ML", link: "https://runwayml.com", category: "video", type: "Free & Paid", description: "AI-powered video editing & effects." },
     { name: "GitHub Copilot", link: "https://github.com/features/copilot", category: "coding", type: "Paid", description: "AI-powered code auto-completion." },
+    { name: "Agent QA", link: "https://github.com/vostride/agent-qa", category: "coding", type: "Free & Paid", description: "AI-assisted browser QA CLI; the package is free, while configured AI providers may charge for usage." },
     { name: "Deepsick AI", link: "https://deepsick.ai", category: "coding", type: "Free & Paid", description: "AI-driven deep learning automation." },
     { name: "Tabnine", link: "https://www.tabnine.com", category: "coding", type: "Free & Paid", description: "AI-based coding assistant." },
     { name: "AIVA", link: "https://www.aiva.ai", category: "music", type: "Free & Paid", description: "AI music composition tool." },
